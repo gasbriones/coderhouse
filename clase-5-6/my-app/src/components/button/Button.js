@@ -9,6 +9,7 @@ export default class Button extends React.Component {
     render() {
         return (
             <button className={this.props.color} onClick={this.props.event}>{this.props.value}</button>
+
         )
     }
 }
