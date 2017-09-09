@@ -1,0 +1,10 @@
+.create-post{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.create-post .title, .create-post .textarea {
+    width: 100%;
+    display: block;
+    margin: 10px 0;
+}
