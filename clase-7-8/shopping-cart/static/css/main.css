@@ -1,0 +1,42 @@
+.item-list .item {
+  list-style: none;
+  transition: .5s ease; }
+  .item-list .item .item-box {
+    background: #ccc;
+    box-sizing: border-box;
+    padding: 0.625em; }
+  .item-list .item button {
+    margin: 0 auto;
+    display: table;
+    padding: 0.625em;
+    border-radius: 0.3125em;
+    border: none;
+    transition: all .2s ease-in;
+    background: goldenrod; }
+    .item-list .item button:hover {
+      background: darkolivegreen;
+      cursor: pointer;
+      color: #ffffff; }
+  .item-list .item:hover {
+    transform: scale(1.1); }
+
+.item-list-wrapper .item-list {
+  background: moccasin;
+  padding: 1.875em; }
+
+.item-added .item {
+  margin-right: 1.875em; }
+
+.loading {
+  font-size: 2em;
+  text-align: center; }
+
+.amount {
+  text-align: center;
+  font-size: 2em;
+  padding: 0.625em;
+  border-radius: 1.25em;
+  background: green;
+  color: #fff; }
+
+/*# sourceMappingURL=main.css.map */
